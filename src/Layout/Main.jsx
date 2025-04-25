@@ -1,11 +1,15 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "../Shared/Footer";
+import Navbar from "../Shared/Navbar";
 
 const Main = () => {
   return (
-    <div>
-      <Outlet></Outlet>
+    <div className="min-h-screen flex flex-col">
+      <Navbar></Navbar>
+      <div className="max-w-screen-xl mx-auto flex-grow">
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   );
