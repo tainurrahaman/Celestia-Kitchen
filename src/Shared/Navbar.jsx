@@ -4,23 +4,23 @@ const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <a>Item 1</a>
+        <a>Menu</a>
       </li>
       <li>
         <details>
-          <summary>Parent</summary>
+          <summary>Favourite Dish</summary>
           <ul className="p-2">
             <li>
-              <a>Submenu 1</a>
+              <a>Kacci</a>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <a>Shorma</a>
             </li>
           </ul>
         </details>
       </li>
       <li>
-        <a>Item 3</a>
+        <a>Order</a>
       </li>
     </>
   );
