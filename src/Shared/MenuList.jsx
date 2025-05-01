@@ -5,7 +5,7 @@ const MenuList = ({ item }) => {
       <img
         src={image}
         alt="Food Image"
-        className="w-[80px] h-[80px] md:h-auto lg:w-[120px] rounded-b-full rounded-tr-full "
+        className="w-[80px] h-[80px] lg:h-auto lg:w-[120px] rounded-b-full rounded-tr-full "
       />
       <div className="pl-2 lg:pl-5 space-y-1 lg:space-y-2">
         <h3 className="text-[17px] font-semibold md:font-normal md:text-[20px]">
