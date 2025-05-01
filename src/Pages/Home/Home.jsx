@@ -4,6 +4,7 @@ import Category from "./Category";
 import CelestiaDetails from "./CelestiaDetails";
 import FeaturedMenu from "./FeaturedMenu";
 import Phone from "./Phone";
+import ChefRecommended from "./ChefRecommended";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <CelestiaDetails></CelestiaDetails>
       <FeaturedMenu></FeaturedMenu>
       <Phone></Phone>
+      <ChefRecommended></ChefRecommended>
     </div>
   );
 };
