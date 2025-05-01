@@ -3,7 +3,7 @@ const CelestiaDetails = () => {
   return (
     <div
       style={{ backgroundImage: `url(${chefImg})` }}
-      className="p-8 md:p-16 lg:px-28 lg:py-24 bg-cover bg-center"
+      className="p-8 md:p-16 lg:px-28 lg:py-24 bg-cover bg-center w-11/12 mx-auto"
     >
       <div className="bg-white text-black p-4 md:p-12 lg:px-32 lg:py-16 text-center">
         <h3 className="text-xl md:text-3xl lg:text-4xl pb-1 md:pb-3 lg:pb-4">
