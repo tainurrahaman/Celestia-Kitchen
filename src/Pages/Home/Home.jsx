@@ -5,6 +5,7 @@ import CelestiaDetails from "./CelestiaDetails";
 import FeaturedMenu from "./FeaturedMenu";
 import Phone from "./Phone";
 import ChefRecommended from "./ChefRecommended";
+import BestFood from "./BestFood";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <FeaturedMenu></FeaturedMenu>
       <Phone></Phone>
       <ChefRecommended></ChefRecommended>
+      <BestFood></BestFood>
     </div>
   );
 };

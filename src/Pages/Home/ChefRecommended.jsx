@@ -28,7 +28,7 @@ const ChefRecommended = () => {
   ];
 
   return (
-    <section className="w-10/12 mx-auto">
+    <section className="w-10/12 mx-auto mb-16 md:mb-20 lg:mb-24">
       <SectionTitle
         subHeading={"Should Try"}
         heading={"chef recommends"}
