@@ -4,14 +4,14 @@ import ItemCard from "../../Shared/ItemCard";
 const ChefRecommended = () => {
   const recommendItems = [
     {
-      _id: "642c155b2c4774f05c36eeaa",
+      _id: "642c155b2c4774f05c36eeaab",
       name: "Caeser Salad",
       image: "https://i.ibb.co.com/C38W4WPm/slide1.jpg",
       category: "salad",
       gradients: "Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.",
     },
     {
-      _id: "642c155b2c4774f05c36eeaa",
+      _id: "642c155b2c4774f05c36eeaac",
       name: "Escalope Pizzas",
       image: "https://i.ibb.co.com/7thhWGG8/slide2.jpg",
       category: "salad",

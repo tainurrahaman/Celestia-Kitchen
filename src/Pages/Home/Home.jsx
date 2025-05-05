@@ -6,6 +6,7 @@ import FeaturedMenu from "./FeaturedMenu";
 import Phone from "./Phone";
 import ChefRecommended from "./ChefRecommended";
 import BestFood from "./BestFood";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Phone></Phone>
       <ChefRecommended></ChefRecommended>
       <BestFood></BestFood>
+      <Testimonials></Testimonials>
     </div>
   );
 };
