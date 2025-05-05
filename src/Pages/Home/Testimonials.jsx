@@ -24,7 +24,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section className="w-9/12 mx-auto mb-20">
+    <section className="w-11/12 md:w-9/12 mx-auto mb-10 md:mb-20 mt-10">
       <SectionTitle
         subHeading={"What Our Clients Say"}
         heading={"testimonials"}
@@ -39,7 +39,7 @@ const Testimonials = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
@@ -50,13 +50,15 @@ const Testimonials = () => {
                 style={{ maxWidth: 180 }}
                 value={review.rating}
                 readOnly
-                className="pb-8"
+                className="pb-6 md:pb-8"
               />
-              <div className="max-w-24 ">
-                <FaQuoteLeft className="text-white text-6xl"></FaQuoteLeft>
+              <div>
+                <FaQuoteLeft className="text-white text-4xl md:text-6xl"></FaQuoteLeft>
               </div>
-              <p className="px-20 text-center pt-8 pb-2">{review.details}</p>
-              <h3 className="font-medium text-4xl text-yellow-600 pb-10">
+              <p className="px-8 md:px-20 text-center pt-4 md:pt-8 pb-2">
+                {review.details}
+              </p>
+              <h3 className="font-medium text-3xl md:text-4xl text-yellow-600 pb-10">
                 {review.name}
               </h3>
             </div>
