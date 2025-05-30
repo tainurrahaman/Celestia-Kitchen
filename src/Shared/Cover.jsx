@@ -9,7 +9,7 @@ const Cover = ({ img, title, subTitle }) => {
       strength={-200}
     >
       <div>
-        <div className="hero h-[600px]">
+        <div className="hero h-[700px]">
           <div className="hero-overlay"></div>
           <div className="hero-content text-neutral-content text-center">
             <div className="max-w-md">
