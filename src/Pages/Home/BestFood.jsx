@@ -9,7 +9,6 @@ const BestFood = () => {
       className="bg-fixed bg-opacity-50 bg-gray-700 text-gray-900 pb-16 px-8 md:px-16 lg:px-32 w-11/12 mx-auto"
     >
       <div className="pt-2 flex-1">
-        {" "}
         <SectionTitle
           subHeading={"Check it Out"}
           heading={"from our menu"}

@@ -10,7 +10,6 @@ const MenuCategoryCover = ({ img, title, subTitle }) => {
     >
       <div>
         <div className="hero h-[500px]">
-          {/* <div className="hero-overlay"></div> */}
           <div className="hero-content text-neutral-content text-center">
             <div className=" bg-black bg-opacity-50 px-48 py-16 rounded-sm">
               <h1 className="mb-5 text-5xl font-semibold uppercase">{title}</h1>
