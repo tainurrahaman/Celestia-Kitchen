@@ -54,7 +54,7 @@ const Menu = () => {
       {/* Pizza Items */}
       <MenuCategoryCover
         img={pizzaImg}
-        title={"Pizza"}
+        title={"sizza"}
         subTitle={"Crafted with Passion, Baked to Perfection"}
       ></MenuCategoryCover>
       <MenuCategory
@@ -65,7 +65,7 @@ const Menu = () => {
       {/* Salad Items */}
       <MenuCategoryCover
         img={saladImg}
-        title={"Salad"}
+        title={"salad"}
         subTitle={"Naturally Nourishing, Always Refreshing"}
       ></MenuCategoryCover>
       <MenuCategory
@@ -76,7 +76,7 @@ const Menu = () => {
       {/* Soup Items */}
       <MenuCategoryCover
         img={soupImg}
-        title={"Soup"}
+        title={"soup"}
         subTitle={"Crafted with Care, Served with Warmth"}
       ></MenuCategoryCover>
       <MenuCategory
