@@ -7,9 +7,13 @@ import orderFoodImg from "../../assets/shop/order.jpg";
 import { useState } from "react";
 import useMenu from "../../Hooks/useMenu";
 import TabItems from "./TabItems";
+import { useParams } from "react-router-dom";
 
 const OrderFood = () => {
-  const [tabIndex, setTabIndex] = useState(0);
+  const categories = ["salad", "pizza", "soup", "dessert", "drinks"];
+  const { category } = useParams();
+  const initialIndex = categories.indexOf(category);
+  const [tabIndex, setTabIndex] = useState(initialIndex);
   const [menu] = useMenu();
 
   const drinksItems = menu.filter((item) => item.category === "drinks");

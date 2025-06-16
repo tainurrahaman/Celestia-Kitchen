@@ -13,11 +13,11 @@ import MenuCategory from "../../Shared/MenuCategory";
 const Menu = () => {
   const [menu] = useMenu();
 
-  const offeredItems = menu.filter((item) => item.category === "offered");
-  const saladItems = menu.filter((item) => item.category === "salad");
-  const dessertItems = menu.filter((item) => item.category === "dessert");
-  const pizzaItems = menu.filter((item) => item.category === "pizza");
-  const soupItems = menu.filter((item) => item.category === "soup");
+  const offered = menu.filter((item) => item.category === "offered");
+  const salad = menu.filter((item) => item.category === "salad");
+  const dessert = menu.filter((item) => item.category === "dessert");
+  const pizza = menu.filter((item) => item.category === "pizza");
+  const soup = menu.filter((item) => item.category === "soup");
 
   return (
     <div>
@@ -36,29 +36,32 @@ const Menu = () => {
         heading={"Today's Offer"}
       ></SectionTitle>
       <MenuCategory
-        items={offeredItems}
+        title={"offered"}
+        items={offered}
         btnTitle={"ORDER YOUR FAVOURITE FOOD"}
       ></MenuCategory>
 
       {/* Dessert Items */}
       <MenuCategoryCover
         img={dessertImg}
-        title={"DESSERTS"}
+        title={"desserts"}
         subTitle={"Indulgent Treats to Satisfy Your Cravings"}
       ></MenuCategoryCover>
       <MenuCategory
-        items={dessertItems}
+        title={"dessert"}
+        items={dessert}
         btnTitle={"ORDER YOUR FAVOURITE FOOD"}
       ></MenuCategory>
 
       {/* Pizza Items */}
       <MenuCategoryCover
         img={pizzaImg}
-        title={"sizza"}
+        title={"pizza"}
         subTitle={"Crafted with Passion, Baked to Perfection"}
       ></MenuCategoryCover>
       <MenuCategory
-        items={pizzaItems}
+        title={"pizza"}
+        items={pizza}
         btnTitle={"ORDER YOUR FAVOURITE FOOD"}
       ></MenuCategory>
 
@@ -69,7 +72,8 @@ const Menu = () => {
         subTitle={"Naturally Nourishing, Always Refreshing"}
       ></MenuCategoryCover>
       <MenuCategory
-        items={saladItems}
+        title={"salad"}
+        items={salad}
         btnTitle={"ORDER YOUR FAVOURITE FOOD"}
       ></MenuCategory>
 
@@ -80,7 +84,8 @@ const Menu = () => {
         subTitle={"Crafted with Care, Served with Warmth"}
       ></MenuCategoryCover>
       <MenuCategory
-        items={soupItems}
+        title={"soup"}
+        items={soup}
         btnTitle={"ORDER YOUR FAVOURITE FOOD"}
       ></MenuCategory>
     </div>
